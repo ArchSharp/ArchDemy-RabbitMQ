@@ -13,19 +13,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PubSubFirstConsumer", "..\P
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PubSubSecondConsumer", "..\PubSubSecondConsumer\PubSubSecondConsumer.csproj", "{D1EF2A89-D9CE-4E12-9AAD-A3A13A68B7C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutingProducer", "..\RoutingProducer\RoutingProducer.csproj", "{C6BB0C51-BABF-4F41-8D55-4FDD7C884DC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoutingProducer", "..\RoutingProducer\RoutingProducer.csproj", "{C6BB0C51-BABF-4F41-8D55-4FDD7C884DC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutingPaymentsConsumer", "..\RoutingPaymentsConsumer\RoutingPaymentsConsumer.csproj", "{CB16C29B-F713-439E-A7CF-A6592D824736}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoutingPaymentsConsumer", "..\RoutingPaymentsConsumer\RoutingPaymentsConsumer.csproj", "{CB16C29B-F713-439E-A7CF-A6592D824736}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutingAnalyticsConsumer", "..\RoutingAnalyticsConsumer\RoutingAnalyticsConsumer.csproj", "{DBA65FA5-2697-4F02-A1C3-38AA5E377BD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoutingAnalyticsConsumer", "..\RoutingAnalyticsConsumer\RoutingAnalyticsConsumer.csproj", "{DBA65FA5-2697-4F02-A1C3-38AA5E377BD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopicProducer", "..\TopicProducer\TopicProducer.csproj", "{06CD7536-0030-4CFD-BE70-60B879602614}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopicProducer", "..\TopicProducer\TopicProducer.csproj", "{06CD7536-0030-4CFD-BE70-60B879602614}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopicAnalyticsConsumer", "..\TopicAnalyticsConsumer\TopicAnalyticsConsumer.csproj", "{68CF2A6C-8BBE-4392-86E1-10567A3B015D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopicAnalyticsConsumer", "..\TopicAnalyticsConsumer\TopicAnalyticsConsumer.csproj", "{68CF2A6C-8BBE-4392-86E1-10567A3B015D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopicPaymentsConsumer", "..\TopicPaymentsConsumer\TopicPaymentsConsumer.csproj", "{4516783E-B5F8-4B94-BB9F-13F548272AD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopicPaymentsConsumer", "..\TopicPaymentsConsumer\TopicPaymentsConsumer.csproj", "{4516783E-B5F8-4B94-BB9F-13F548272AD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopicUserConsumer", "..\TopicUserConsumer\TopicUserConsumer.csproj", "{990DDFA7-65AE-4BF9-B616-DB791782A7B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopicUserConsumer", "..\TopicUserConsumer\TopicUserConsumer.csproj", "{990DDFA7-65AE-4BF9-B616-DB791782A7B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestReplyClient", "..\RequestReplyClient\RequestReplyClient.csproj", "{93AE4060-FF98-4FB2-B820-2FFA7CB912CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestReplyServer", "..\RequestReplyServer\RequestReplyServer.csproj", "{1B4B89FE-4DB8-443D-BB03-7C0E64749528}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +85,14 @@ Global
 		{990DDFA7-65AE-4BF9-B616-DB791782A7B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{990DDFA7-65AE-4BF9-B616-DB791782A7B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{990DDFA7-65AE-4BF9-B616-DB791782A7B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93AE4060-FF98-4FB2-B820-2FFA7CB912CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93AE4060-FF98-4FB2-B820-2FFA7CB912CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93AE4060-FF98-4FB2-B820-2FFA7CB912CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93AE4060-FF98-4FB2-B820-2FFA7CB912CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B4B89FE-4DB8-443D-BB03-7C0E64749528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B4B89FE-4DB8-443D-BB03-7C0E64749528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B4B89FE-4DB8-443D-BB03-7C0E64749528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B4B89FE-4DB8-443D-BB03-7C0E64749528}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
